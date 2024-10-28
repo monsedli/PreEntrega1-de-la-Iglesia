@@ -45,7 +45,7 @@ function primeraEtapa() {
             segundaEtapa()
             return
         } else {
-            alert("Esa no es una opción válida. Te quedan " + (intentos - i - 1) + " intentos.")
+            alert("Esa no es una opción válida. Pierdes una vida. Te quedan " + (intentos - i - 1) + " intentos.")
         }
     }
     alert("¡Se acabaron tus intentos en esta etapa! Pierdes el juego.")
@@ -95,7 +95,7 @@ function terceraEtapa() {
             return
         } else {
             intentosRestantes--
-            alert("Opción no válida. Te quedan " + intentosRestantes + " intentos.")
+            alert("Esa no es una opción válida. Pierdes una vida. Te quedan " + intentosRestantes + " intentos.")
         }
     }
 
